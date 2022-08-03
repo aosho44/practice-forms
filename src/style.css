@@ -21,3 +21,20 @@ form {
   padding: 16px;
   width: 320px;
 }
+
+button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  transition: 0.2s;
+}
+
+button:focus,
+button:hover {
+  background-color: #00ff00;
+  cursor: pointer;
+  transform: scale(1.05) translateY(-2px);
+}
+
