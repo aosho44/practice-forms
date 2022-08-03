@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
 
-  <body>
-    <h1>Login/Registration</h1>
+  <body class="flex flex-col items-center">
+    <h1 class="my-4 text-3xl font-bold text-red-500">Login/Registration</h1>
 
-    <form>
-      <div>
+    <form class="flex w-80 flex-col items-center gap-4 rounded border p-4">
+      <div class="">
         <label for="username">Username:</label>
         <input type="text" id="username" placeholder="Username" />
       </div>
@@ -28,7 +28,12 @@
         <input type="password" id="password" placeholder="Password" />
       </div>
 
-      <button type="submit">Submit</button>
+      <button
+        type="submit"
+        class="rounded bg-green-500 px-4 py-2 text-white transition hover:scale-105 hover:bg-green-700"
+      >
+        Submit
+      </button>
     </form>
   </body>
 </html>
